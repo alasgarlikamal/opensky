@@ -137,7 +137,7 @@ export default function Footer() {
             {/* Copyrights note */}
             <div className={"flex justify-center"}>
 
-            <div className="text-gray-400 text-sm mr-4">&copy; Cruip.com. All rights reserved. </div>
+            <div className="text-gray-400 text-sm mr-4">&copy; Opensky.com. All rights reserved. </div>
               <div className={"text-[#151719]"}>Bunu oxuyan petuxdur</div>
             </div>
 
