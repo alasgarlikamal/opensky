@@ -3,7 +3,7 @@ import Image from 'next/image'
 import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
 import Ilkin from '@/public/images/ilkin.jpg';
 import Rasul from '@/public/images/rasul.jpeg';
-import Kamal from '@/public/images/kamal.jpg';
+import Kamal from '@/public/images/kamal.jpeg';
 import Zeyneb from '@/public/images/zeyneb.jpg';
 
 export default function Testimonials() {

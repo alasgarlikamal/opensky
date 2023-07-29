@@ -40,9 +40,9 @@ export default function Header() {
               {/*  </Link>*/}
               {/*</li>*/}
               <li onClick={() => scroll()}>
-                <Link href={"#"} className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 scroll-smooth">
+                <p className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 scroll-smooth cursor-pointer">
                   Komandamız
-                </Link>
+                </p>
               </li>
             </ul>
           </nav>
