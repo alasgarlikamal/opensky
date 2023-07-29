@@ -10,9 +10,11 @@ import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
+import {useRef} from "react";
 
 export default function Home() {
-  return (
+
+    return (
     <>
         <Header />
       <Hero />

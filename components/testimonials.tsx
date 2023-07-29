@@ -7,7 +7,7 @@ import Kamal from '@/public/images/kamal.jpg';
 
 export default function Testimonials() {
   return (
-    <section   id={"team"} className={"scroll-smooth"}>
+    <section id={"team"} className={"scroll-smooth"}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 

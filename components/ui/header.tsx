@@ -1,7 +1,12 @@
+'use client';
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
 
 export default function Header() {
+  const scroll = () => {
+    const section = document.querySelector('#team');
+    section.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -34,8 +39,8 @@ export default function Header() {
               {/*    Sign in*/}
               {/*  </Link>*/}
               {/*</li>*/}
-              <li>
-                <Link href="#team" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 scroll-smooth">
+              <li onClick={() => scroll()}>
+                <Link href={"#"} className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 scroll-smooth">
                   Komandamız
                 </Link>
               </li>
