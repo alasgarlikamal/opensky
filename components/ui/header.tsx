@@ -5,7 +5,7 @@ import MobileMenu from './mobile-menu'
 export default function Header() {
   const scroll = () => {
     const section = document.querySelector('#team');
-    section.scrollIntoView({behavior: 'smooth', block: 'start'});
+    section != null && section.scrollIntoView({behavior: 'smooth', block: 'start'});
   }
   return (
     <header className="absolute w-full z-30">
