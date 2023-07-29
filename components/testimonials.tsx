@@ -4,6 +4,7 @@ import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
 import Ilkin from '@/public/images/ilkin.jpg';
 import Rasul from '@/public/images/rasul.jpeg';
 import Kamal from '@/public/images/kamal.jpg';
+import Zeyneb from '@/public/images/zeyneb.jpg';
 
 export default function Testimonials() {
   return (
@@ -49,10 +50,10 @@ export default function Testimonials() {
 
             {/* 4th testimonial */}
             <div className="flex flex-col h-full p-6 bg-gray-800 items-center" data-aos="fade-up">
-              <Image className="rounded-full" src={TestimonialImage01} width={200} height={200} alt="Testimonial 01" />
+              <Image className="rounded-full" src={Zeyneb} width={200} height={200} alt="Testimonial 01" />
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" target="_blank" href="#0">Zeynab Mamadova</a>
-                <cite className="text-gray-200 not-italic"> - Processing Enginner</cite>
+                <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" target="_blank" href="http://linkedin.com/in/zeynəb-məmmədova-61b859266">Zeynab Mammadova</a>
+                <cite className="text-gray-200 not-italic"> - Processing Engineer</cite>
               </div>
             </div>
 
