@@ -58,9 +58,10 @@ export default function Hero() {
           {/*<Image data-aos="fade-up" data-aos-delay="500" className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={1024} height={576} alt="Features 02" />*/}
           <div className={"flex justify-center"}>
             <iframe className="w-1024 h-576" width={"1024px"} height={"576px"}
-                    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFUAckIVzs&#x2F;view?embed" allowFullScreen={true}>
+                    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFp8fb9g_E&#x2F;view?embed" allowFullScreen={true}>
             </iframe>
           </div>
+
         </div>
 
       </div>
