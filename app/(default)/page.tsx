@@ -1,7 +1,7 @@
 import Header from "@/components/ui/header";
 
 export const metadata = {
-  title: 'Home - Open PRO',
+  title: 'Open Sky | Perihelion',
   description: 'Page description',
 }
 
